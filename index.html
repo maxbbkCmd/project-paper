@@ -6,13 +6,34 @@
   <title>project-paper</title>
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <img src="./assets/icon/logo-header.svg" alt="Логотип компании">
+      </div>
+      <div class="header__bar">
+        <div class="header__burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </div>
+        <div class="header__search">
+          <img src="./assets/icon/seach-default.png" alt="Поиск">
+        </div>
+        <div class="header__log-in">
+          <img src="./assets/icon/log-in-default.png" alt="Войти">
+        </div>
+      </div>
+    </div>
+  </header>
   <section class="baner" id="baner">
     <div class="baner__wrapper">
       <div class="baner__text">
         <h1 class="baner__title">Простые вещи. Из бумаги</h1>
         <p class="baner__copy">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.</p>
-        <button class="baner__button">Каталог</button>
+      </div>
+      <div class="baner__button">
+        <a class="button" href="#"><img src="./assets/icon/btn-catalog.png" alt="Каталог"></a>
       </div>
     </div>
   </section>
@@ -62,12 +83,12 @@
           <img src="./assets/images/1.jpg" alt="Paper 1">
         </div>
         <div class="products__text">
-          <h1 class="product__title">Упаковка</h1>
-          <p class="product__circulation">Тираж: от 50 штук</p>
-          <p class="product__copy">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+          <h2 class="products__title">Упаковка</h2>
+          <p class="products__circulation">Тираж: от 50 штук</p>
+          <p class="products__copy">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
         </div>
-        <div class="product__link">
-          <a href="https://ya.ru" class="link-with-image">
+        <div class="products__link">
+          <a href="https://ya.ru" >
             Подробнее
             <img src="./assets/icon/Arrow 1.png" alt="string">
           </a>
@@ -78,12 +99,12 @@
           <img src="./assets/images/2.jpg" alt="Paper 1">
         </div>
         <div class="products__text">
-          <h1 class="product__title">Пакеты</h1>
-          <p class="product__circulation">Тираж: от 200 штук</p>
-          <p class="product__copy">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+          <h2 class="products__title">Пакеты</h2>
+          <p class="products__circulation">Тираж: от 200 штук</p>
+          <p class="products__copy">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
         </div>
-        <div class="product__link">
-          <a href="https://ya.ru" class="link-with-image">
+        <div class="products__link">
+          <a href="https://ya.ru">
             Подробнее
             <img src="./assets/icon/Arrow 1.png" alt="string">
           </a>
@@ -94,12 +115,12 @@
           <img src="./assets/images/3.jpg" alt="Paper 1">
         </div>
         <div class="products__text">
-          <h1 class="product__title">Кейсы</h1>
-          <p class="product__circulation">Тираж: от 30 штук</p>
-          <p class="product__copy">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+          <h2 class="products__title">Кейсы</h2>
+          <p class="products__circulation">Тираж: от 30 штук</p>
+          <p class="products__copy">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
         </div>
-        <div class="product__link">
-          <a href="https://ya.ru" class="link-with-image">
+        <div class="products__link">
+          <a href="https://ya.ru">
             Подробнее
             <img src="./assets/icon/Arrow 1.png" alt="string">
           </a>
@@ -110,12 +131,12 @@
           <img src="./assets/images/4.jpg" alt="Paper 1">
         </div>
         <div class="products__text">
-          <h1 class="product__title">Другие изделия </h1>
-          <p class="product__circulation">Тираж: от 100 штук</p>
-          <p class="product__copy">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+          <h2 class="products__title">Другие изделия </h2>
+          <p class="products__circulation">Тираж: от 100 штук</p>
+          <p class="products__copy">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
         </div>
-        <div class="product__link">
-          <a href="https://ya.ru" class="link-with-image">
+        <div class="products__link">
+          <a href="https://ya.ru">
             Подробнее
             <img src="./assets/icon/Arrow 1.png" alt="string">
           </a>
@@ -123,24 +144,24 @@
       </div>
     </div>
   </section>
-    <section class="partners" id="partners">
+  <section class="partners" id="partners">
       <div class="partners__wrapper">
         <div class="partners__images">
-          <div class="parners__image">
+          <div class="partners__image">
             <img src="./assets/images/img1.png" alt="logo-partners">
           </div>
-          <div class="parners__image">
+          <div class="partners__image">
             <img src="./assets/images/img2.png" alt="logo-partners">
           </div>
-          <div class="parners__image">
+          <div class="partners__image">
             <img src="./assets/images/img3.png" alt="logo-partners">
           </div>
-          <div class="parners__image">
+          <div class="partners__image">
             <img src="./assets/images/img3.png" alt="logo-partners">
           </div>
         </div>
       </div>
-    </section>
+
   </section>
   <section class="book" id="book">
     <div class="book__wrapper">
@@ -148,11 +169,11 @@
         <img src="./assets/images/book.png" alt="Book">
       </div>
       <div class="book__text-block">
-          <h3 class="text__book">Simple скетчбук</h3>
+          <h3 class="book__title">Simple скетчбук</h3>
           <div class="book__copy">80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</div>
       </div>
       <div class="book__button">
-          <a href="#"><img src="./assets/icon/btn-catalog.png" alt="Каталог"></a>
+          <a class="button" href="#"><img src="./assets/icon/btn-catalog.png" alt="Каталог"></a>
       </div>
     </div>
   </section>
